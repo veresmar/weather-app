@@ -5,6 +5,7 @@
   background: #7749F8;
   font-family: "Inter", sans-serif;
   text-align: center;
+  color: white;
 }
 
 h1 {
@@ -14,24 +15,34 @@ h1 {
   line-height: 34px;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 40px;
-  margin-bottom: 300px;
 }
 
-main {
-  min-height: 45vh;
+main .container {
+  height: 10rem;
+  margin-top: 8rem;
+  margin-bottom: 5rem;
 }
-main .container input {
-  border: none;
-  border-bottom: 1px solid white;
+main .container #weather-degree {
   margin-bottom: 2rem;
+  font-size: 2.5rem;
 }
-main .container button {
+
+button {
   border: 1px solid white;
   border-radius: 2rem;
-  padding: 0.5rem;
+  padding: 0.8rem 1rem;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  outline: 2px solid white;
 }
 
-footer {
-  color: rgba(255, 255, 255, 0.7);
+#find-city-button {
+  margin-bottom: 10rem;
+}
+
+footer p {
+  color: rgba(255, 255, 255, 0.5);
   margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

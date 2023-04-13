@@ -5,6 +5,7 @@
   background: #7749F8;
   font-family: 'Inter', sans-serif;
   text-align:center;
+  color: white;
 }
 
 h1 {
@@ -15,26 +16,36 @@ h1 {
   
   color: rgba(255, 255, 255, 0.5);
   margin-top:40px;
-  margin-bottom:300px;
+  
 }
 main {
-   min-height: 45vh;
    .container {
-    input {
-        border:none;
-        border-bottom:1px solid white;
-        margin-bottom:2rem;
-        
-      }
-    button {
-      
-      border:1px solid white;
-      border-radius: 2rem;
-      padding: 0.5rem;
+    height: 10rem;
+    margin-top: 8rem;
+    margin-bottom: 5rem;
+
+    #weather-degree {
+      margin-bottom:2rem;
+      font-size:2.5rem;
     }
    }
 }
+button {   
+  border:1px solid white;
+  border-radius: 2rem;
+  padding: 0.8rem 1rem;
+  color: white;
+  cursor:pointer;
+  &:hover {
+    outline:2px solid white;
+  }
+}
+#find-city-button {
+  margin-bottom:10rem;
+}
 footer {
-  color: rgba(255, 255, 255, 0.7);
-  margin:0 auto;
+  p {
+    color: rgba(255, 255, 255, 0.5);
+    margin:0 auto;
+  }
 }

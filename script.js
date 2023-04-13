@@ -8,7 +8,7 @@
 
 const API_KEY_WEATHER = "51e83a967be54ce010c8f61d164b65b0";
 const API_KEY_IP = 'at_25BW0LHCv94wfihc7s7BE5vfYliZw';
-const url = 'https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=51e83a967be54ce010c8f61d164b65b0&units=metric?'
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=44.34&lon=10.99&appid=51e83a967be54ce010c8f61d164b65b0&units=metric'
 
 const findCityButton = document.getElementById('find-city-button');
 
