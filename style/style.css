@@ -23,6 +23,12 @@ main {
 main .container input {
   border: none;
   border-bottom: 1px solid white;
+  margin-bottom: 2rem;
+}
+main .container button {
+  border: 1px solid white;
+  border-radius: 2rem;
+  padding: 0.5rem;
 }
 
 footer {
